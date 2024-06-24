@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title-blog{
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+    color:rgb(187, 187, 252);
+}
+.poster {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    border-radius:5%;
+ }
+.info1{
+    
+    font-size:22px;
+    padding: 10px;
+    margin: 5px;
+   }
+   .price{
+    background-color: black;
+    color:#FFFF;
+    padding:2px 5px;
+    margin:7px;
+    font-size:15px;
+    border-radius:10px;
+    width:150px;
+    }
+   .blog-card {
+    border-radius: 10px;
+    background-color: hsl(311, 42%, 93%);
+    overflow:hidden;
+    
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    width:40%;
+   justify-content: center;
+   }
+ 
